@@ -119,15 +119,26 @@ a.contact-social {
   }
 }
 @media only screen and (max-width: 900px) {
+  .contact-section h3 {
+    text-align: center;
+  }
   .contact-flex {
     flex-direction: column;
     gap: 40px;
+    align-items: center;
+    text-align: center;
   }
   .contact-flex p {
     margin-bottom: 0px;
   }
   .contact-flex h4 {
     margin-top: 20px;
+  }
+  .contact-box {
+    align-items: center;
+  }
+  .contact-box h5 {
+    justify-content: center;
   }
   .contact-section {
     margin-top: 50px;

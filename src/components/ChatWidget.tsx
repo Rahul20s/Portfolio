@@ -109,6 +109,12 @@ const ChatWidget = () => {
     <div className="chat-widget-container">
       {isOpen && (
         <div className="chat-widget-panel">
+          <div className="chat-widget-header">
+            <span>Chat with Rahul</span>
+            <button className="chat-widget-close" onClick={() => setIsOpen(false)}>
+              <FaTimes />
+            </button>
+          </div>
           <div className="chat-widget-messages">
             {chatMessages.filter(m => m.role !== 'system').map((msg, idx) => (
               <div key={idx} className={`chat-message ${msg.role}`}>
