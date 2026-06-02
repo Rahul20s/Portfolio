@@ -1,14 +1,17 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import HoverLinks from "./HoverLinks";
 import { gsap } from "gsap";
 import Lenis from "lenis";
+import { FaBars, FaTimes } from "react-icons/fa";
 import "./styles/Navbar.css";
 
 gsap.registerPlugin(ScrollTrigger);
 export let lenis: Lenis | null = null;
 
 const Navbar = () => {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
   useEffect(() => {
     // Initialize Lenis smooth scroll
     lenis = new Lenis({
@@ -63,29 +66,35 @@ const Navbar = () => {
       lenis?.destroy();
     };
   }, []);
+
+  const closeMenu = () => setIsMobileMenuOpen(false);
+
   return (
     <>
       <div className="header">
         <a href="/#" className="navbar-title" data-cursor="disable" style={{ display: 'flex', alignItems: 'center' }}>
           <img src="/images/Profile.jpeg" alt="Rahul Sharma" style={{ width: '55px', height: '55px', borderRadius: '50%', objectFit: 'cover' }} />
         </a>
-        <ul>
-          <li>
+        <button className="menu-toggle" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
+          {isMobileMenuOpen ? <FaTimes /> : <FaBars />}
+        </button>
+        <ul className={isMobileMenuOpen ? "mobile-open" : ""}>
+          <li onClick={closeMenu}>
             <a data-href="#about" href="#about">
               <HoverLinks text="ABOUT" />
             </a>
           </li>
-          <li>
+          <li onClick={closeMenu}>
             <a data-href="#work" href="#work">
               <HoverLinks text="WORK" />
             </a>
           </li>
-          <li>
+          <li onClick={closeMenu}>
             <a data-href="#contact" href="#contact">
               <HoverLinks text="CONTACT" />
             </a>
           </li>
-          <li>
+          <li onClick={closeMenu}>
             <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
               <HoverLinks text="RESUME" />
             </a>
