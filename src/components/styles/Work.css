@@ -302,7 +302,12 @@
     flex-direction: column;
     margin-left: 0;
     padding-right: 0;
-    gap: 0;
+    gap: 40px;
+  }
+
+  .work-flex::before,
+  .work-flex::after {
+    display: none;
   }
 
   .work-box {
@@ -322,6 +327,16 @@
     font-size: 36px;
     margin-top: 50px;
     margin-bottom: 20px;
+  }
+
+  .work-title {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+  
+  .work-title>div {
+    text-align: left;
   }
 
   .work-title h3 {
