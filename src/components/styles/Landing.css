@@ -95,13 +95,14 @@
   .landing-h2-1,
   .landing-h2-info {
     position: static !important;
-    display: block;
-    width: auto;
-    margin: 0 !important;
+    display: block !important;
+    width: 100% !important;
+    margin: 0 auto !important;
     font-size: 20px !important;
     line-height: 1.5 !important;
-    white-space: normal;
-    text-align: center;
+    white-space: normal !important;
+    flex-wrap: wrap !important;
+    text-align: center !important;
     height: auto !important;
     transform: none !important;
     /* Remove any transforms */
