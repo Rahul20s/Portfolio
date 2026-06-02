@@ -1,193 +1,182 @@
 export const config = {
     developer: {
-        name: "Redoyanul",
-        fullName: "Redoyanul Haque",
-        title: "AI & Full-Stack Developer",
-        description: "AI & Full-Stack Developer building intelligent systems and modern web applications. Passionate about machine learning, deep learning, and creating next-gen autonomous agents."
+        name: "Rahul",
+        fullName: "Rahul Sharma",
+        title: "AI & Full Stack Developer",
+        description: "Eager learner, constantly staying one step ahead of challenges, and driven to solve real-world problems through innovative AI and Full-Stack solutions."
     },
     social: {
-        github: "red1-for-hek",
-        email: "redoyanul1234@gmail.com",
-        location: "Bangladesh"
+        github: "Rahul20s",
+        email: "rs7304141066@gmail.com",
+        location: "India"
     },
     about: {
         title: "About Me",
-        description: "I am a self-taught AI & Full-Stack Developer from Bangladesh. I build intelligent systems, chatbots, and modern web applications. My expertise includes Machine Learning, Deep Learning, NLP, and Full-Stack Web Development with React, Node.js, and Python. Currently building next-gen AI Agents and JARVIS-like Personal Assistants. I have a competitive programming mindset and a deep passion for automation. Code is poetry, AI is the canvas."
+        description: "I am a driven AI & Full-Stack Developer holding a Bachelor of Vocational Studies (B.VOC) in Artificial Intelligence and Data Science. I have a strong foundation in modern web development, specializing in HTML, CSS, JavaScript, and backend frameworks like Django and Node.js. With hands-on experience building responsive, dynamic applications and integrating AI and NLP solutions, I am passionate about writing clean, efficient code and leveraging cutting-edge technologies to solve complex real-world problems."
     },
     experiences: [
         {
-            position: "Learning Something New",
-            company: "Self-Development",
-            period: "2025 - Present",
-            location: "Bangladesh",
-            description: "Continuously exploring emerging technologies, researching advanced AI systems, and pushing the boundaries of what's possible in tech.",
+            position: "B.VOC in AI & Data Science",
+            company: "Thakur College of Engineering and Technology",
+            period: "2023 - 2026",
+            location: "India",
+            description: "Graduated with a Bachelor's degree (8.6 CGPA), with a core focus on Artificial Intelligence, Data Science, and modern web development.",
             responsibilities: [
-                "Researching cutting-edge AI and ML technologies",
-                "Experimenting with new frameworks and tools",
-                "Contributing to open-source projects",
-                "Building innovative personal projects"
+                "Studied Artificial Intelligence, Machine Learning, and NLP",
+                "Mastered Database Management (MySQL, SQLite) and Data Visualization (Power BI)",
+                "Developed practical skills in Python and Full-Stack Web Development"
             ],
-            technologies: ["Research", "Innovation", "Open Source", "New Tech"]
+            technologies: ["AI", "Data Science", "Python", "Machine Learning"]
         },
         {
-            position: "AI Engineer",
-            company: "Freelance & Projects",
+            position: "Certifications & Achievements",
+            company: "Professional Development",
             period: "2025",
-            location: "Bangladesh",
-            description: "Developing intelligent AI systems, chatbots, and machine learning solutions. Building next-gen conversational AI agents and JARVIS-like personal assistants.",
-            responsibilities: [
-                "Building AI-powered chatbots and conversational agents",
-                "Developing machine learning models with TensorFlow and PyTorch",
-                "Working with LLMs and transformer architectures",
-                "Creating autonomous AI systems and automation tools"
-            ],
-            technologies: ["Python", "TensorFlow", "PyTorch", "LLMs", "NLP", "AI Agents"]
+            location: "Online",
+            description: "• Microsoft Excel Associate (MO-200)\n• NASSCOM Future Skills (1) - Web Developer\n• NASSCOM Future Skills (2) - Business Intelligence\n• NVIDIA Deep Learning Institute (2)\n• NVIDIA Deep Learning Institute (3)",
+            responsibilities: [],
+            technologies: ["Deep Learning", "Web Development", "Business Intelligence", "Excel"]
         },
         {
-            position: "Full-Stack Developer",
-            company: "Freelance & Projects",
-            period: "2024",
-            location: "Bangladesh",
-            description: "Built complete web applications from frontend to backend. Developed responsive UIs, RESTful APIs, and database solutions for various clients and projects.",
+            position: "AI Developer Intern",
+            company: "CFMARC",
+            period: "Present",
+            location: "Remote/Hybrid",
+            description: "Worked as an AI Developer Intern, contributing to the development of OCR systems and internal knowledge portals using modern web and AI technologies.",
             responsibilities: [
-                "Developing full-stack web applications using React and Node.js",
-                "Building RESTful APIs and integrating databases",
-                "Creating responsive and interactive user interfaces",
-                "Deploying and maintaining web applications"
+                "Assisted in integrating NLP and LLM models for data extraction.",
+                "Developed scalable full-stack features using Node.js and React."
             ],
-            technologies: ["React", "Node.js", "MongoDB", "Express", "Next.js", "TypeScript"]
-        },
-        {
-            position: "Python Developer",
-            company: "Self-Taught & Projects",
-            period: "2023",
-            location: "Bangladesh",
-            description: "Dove deep into Python programming, building automation scripts, bots, and mastering the fundamentals of software development and problem-solving.",
-            responsibilities: [
-                "Learning Python programming and core concepts",
-                "Building automation scripts and Discord bots",
-                "Exploring data structures and algorithms",
-                "Participating in competitive programming"
-            ],
-            technologies: ["Python", "Automation", "Scripting", "Discord.py", "Problem Solving"]
-        },
-        {
-            position: "Graphic Designer",
-            company: "Freelance",
-            period: "2022",
-            location: "Bangladesh",
-            description: "Started my creative journey as a graphic designer, creating logos, banners, and visual content. This sparked my passion for technology and digital creation.",
-            responsibilities: [
-                "Designing logos and brand identity materials",
-                "Creating social media graphics and banners",
-                "Working with clients on creative projects",
-                "Learning design principles and visual aesthetics"
-            ],
-            technologies: ["Photoshop", "Illustrator", "Canva", "Figma", "Visual Design"]
-        },
-        {
-            position: "Microsoft Office",
-            company: "Begin Learning",
-            period: "2021",
-            location: "Bangladesh",
-            description: "Started my journey into the digital world by learning Microsoft Office tools. This foundational step introduced me to computers and sparked my curiosity for technology.",
-            responsibilities: [
-                "Learning Microsoft Word, Excel, and PowerPoint",
-                "Creating documents and presentations",
-                "Understanding basic computer operations",
-                "Building foundational digital skills"
-            ],
-            technologies: ["MS Word", "MS Excel", "MS PowerPoint", "Computer Basics"]
+            technologies: ["Node.js", "React", "AI", "NLP", "Python"]
         }
     ],
     projects: [
         {
             id: 1,
-            title: "Drishti",
-            category: "AI / LLM",
-            technologies: "Python, PyTorch, Transformers, FastAPI, React, MongoDB",
-            image: "/images/drishti.png",
-            description: "Bangladesh's first intelligent advanced AI chatbot powered by a custom Large Language Model. Features natural language understanding, contextual conversations, and multilingual support including Bengali."
+            title: "CFM AI Application",
+            category: "AI / Enterprise",
+            technologies: "React, Node.js, Azure OpenAI, Azure AI Search, Tailwind CSS",
+            image: "/images/ai_agent.png",
+            description: "A secure, enterprise-grade AI assistant. Features a general GPT-4o chat and a Document Search mode powered by Azure AI Search that answers queries based strictly on uploaded company policies and SOPs."
         },
         {
             id: 2,
-            title: "VoteChain",
-            category: "Blockchain",
-            technologies: "Solidity, Web3.js, React, Ethereum, IPFS, MetaMask, Node.js",
-            image: "/images/votechain.png",
-            description: "A decentralized election system built on blockchain technology ensuring transparent, tamper-proof, and verifiable voting. Features smart contracts for vote integrity and real-time result tracking."
+            title: "Employee Appraisal System",
+            category: "HR Tech / Full Stack",
+            technologies: "Node.js, Express, HTML5, Bootstrap 5",
+            image: "/images/form.png",
+            description: "A comprehensive web-based employee appraisal system. Features role-based access control (Employee, Supervisor, HR), dynamic search for supervisors, multi-stage approval workflows, and form locking."
         },
         {
             id: 3,
-            title: "EIE - Earthquake Impact Estimator",
-            category: "IoT / Hardware",
-            technologies: "Arduino, C++, IoT Sensors, Python, ML, React",
-            image: "/images/eie.png",
-            description: "A practical circuit-based IoT system utilizing Arduino to predict earthquakes before they strike. Integrates hardware sensors for real-time seismic detection and impact estimation."
+            title: "Story Haven",
+            category: "Full Stack",
+            technologies: "Node.js, Express, SQLite, HTML/CSS/JS",
+            image: "/images/books.png",
+            description: "A full-stack story-sharing platform with user authentication, role-based access control, and content locking functionality. Users can write, publish, and read stories with automated reading-time calculation."
         },
         {
             id: 4,
-            title: "GameKroy",
-            category: "Full Stack",
-            technologies: "React, Node.js, MongoDB, Express, Stripe, TailwindCSS",
-            image: "/images/gamekroy.png",
-            description: "A full-featured e-commerce platform for gaming products. Includes user authentication, product catalog, shopping cart, secure payments, order tracking, and admin dashboard."
+            title: "CFML Corporate Website",
+            category: "Web Development",
+            technologies: "HTML, CSS, JavaScript, Vite",
+            image: "/images/cfml.png",
+            description: "A professional corporate website built for CFML. Features a modern, responsive UI showcasing company services, about us, and team information, optimized with Vite for fast performance."
         },
         {
             id: 5,
-            title: "RedxChess",
-            category: "AI / Game Engine",
-            technologies: "Python, C++, Neural Networks, Bitboards, UCI Protocol",
-            image: "/images/redxchess.png",
-            description: "A high-performance chess engine rated 3640 ELO. Features advanced search algorithms, neural network evaluation, and optimized bitboard representation for lightning-fast move generation."
+            title: "Immersive 3D Experience",
+            category: "Web Development",
+            technologies: "Next.js, React, Tailwind CSS",
+            image: "/images/gpt.png",
+            description: "A modern web application built using the Next.js framework, featuring an immersive UI and optimized performance with server-side rendering."
         },
         {
             id: 6,
-            title: "Floodhub",
-            category: "AI / ML",
-            technologies: "Python, TensorFlow, Pandas, React, FastAPI, GIS",
-            image: "/images/floodhub.png",
-            description: "A flood prediction model specifically designed for Bangladesh's river systems. Analyzes weather patterns, water levels, and historical data to provide accurate flood forecasts and alerts."
+            title: "IntraDesk Portal",
+            category: "Enterprise Portal",
+            technologies: "React, Node.js, PostgreSQL, Prisma, Azure AD",
+            image: "/images/portal.png",
+            description: "A secure internal knowledge portal for company employees with Azure AD authentication. Features document management, advanced search with department filters, and a comprehensive admin panel."
         },
         {
             id: 7,
-            title: "Phoenix",
-            category: "AI Assistant",
-            technologies: "Python, Speech Recognition, PyAutoGUI, OpenAI API, Tkinter",
-            image: "/images/phoenix.png",
-            description: "A JARVIS-inspired personal AI desktop assistant. Controls system functions, manages tasks, answers queries, automates workflows, and provides voice-activated computing experience."
+            title: "CFMARC Business Connect",
+            category: "Web Portal / Full Stack",
+            technologies: "Node.js, Express, HTML/JS, Nodemailer",
+            image: "/images/ws_web.png",
+            description: "A multifaceted business connection web portal. Integrates OTP-based secure login, LMS service integration for borrower details, a payment gateway, and an automated chatbot system."
         },
         {
             id: 8,
-            title: "HekTools",
-            category: "Security / Android",
-            technologies: "Kotlin, Android SDK, Firebase, Python, Encryption",
-            image: "/images/hektools.png",
-            description: "An advanced Android monitoring and security research tool. Features remote device management, activity logging, and encrypted data transmission for security testing purposes."
+            title: "CFMARC OCR System",
+            category: "AI / Data Extraction",
+            technologies: "HTML/CSS, Node.js, Express, Nvidia AI (Nemotron)",
+            image: "/images/ocr.png",
+            description: "An advanced Optical Character Recognition tool leveraging Nvidia's Nemotron AI. It extracts text coordinates, renders documents, and maps variables intelligently to streamline data entry processes."
+        },
+        {
+            id: 9,
+            title: "HTML & CSS Portfolio",
+            category: "Web Design",
+            technologies: "HTML, CSS, Bootstrap",
+            image: "/images/html_portfolio.png",
+            description: "A responsive personal portfolio website with structured, mobile-friendly layouts built completely from scratch using the Bootstrap grid system."
+        },
+        {
+            id: 10,
+            title: "Data Visualization Dashboard",
+            category: "Data Analysis",
+            technologies: "Power BI, Excel, SQL",
+            image: "/images/powerbi.png",
+            description: "An interactive dashboard visualizing key business metrics. Transforms raw data into meaningful insights with dynamic charts, KPIs, and slicers."
+        },
+        {
+            id: 11,
+            title: "Django Food Mart",
+            category: "Full Stack Web",
+            technologies: "Django, Python, HTML, CSS",
+            image: "/images/django_food.png",
+            description: "A dynamic Food Mart web application with user authentication, category-wise browsing, and a responsive UI. Features basic CRUD operations for product management."
+        },
+        {
+            id: 12,
+            title: "Django Online Clothing",
+            category: "E-Commerce",
+            technologies: "Django, Python, MVC Architecture",
+            image: "/images/django_clothing.png",
+            description: "A comprehensive online clothing store featuring a shopping cart system, order management, dummy payment workflow, and Django session handling."
+        },
+        {
+            id: 13,
+            title: "AI Chatbot",
+            category: "AI & NLP",
+            technologies: "Python, Natural Language Processing",
+            image: "/images/python_chatbot.png",
+            description: "A conversational AI chatbot utilizing NLP and condition-based matching to process user input and generate intelligent, context-aware responses."
         }
     ],
     contact: {
-        email: "redoyanul1234@gmail.com",
-        github: "https://github.com/red1-for-hek",
-        linkedin: "https://linkedin.com/in/red1-for-hek",
-        twitter: "https://x.com/red_1_ul",
-        facebook: "https://www.facebook.com/redoyanulhaque.hacker.official",
-        instagram: "https://www.instagram.com/red_1_ul"
+        email: "rs7304141066@gmail.com",
+        phone: "+91 7304141066",
+        github: "https://github.com/Rahul20s",
+        linkedin: "https://www.linkedin.com/in/rahul-sharma-b598241ba",
+        twitter: "",
+        facebook: "",
+        instagram: "https://www.instagram.com/player_u_know?igsh=dzc0a2pmbzh5ZDY1&utm_source=qr"
     },
     skills: {
         develop: {
-            title: "AI DEVELOPER",
-            description: "Building intelligent systems & AI solutions",
-            details: "Developing AI agents, chatbots, and machine learning models using Python, TensorFlow, and PyTorch. Specializing in LLMs, NLP, deep learning, and autonomous systems.",
-            tools: ["Python", "TensorFlow", "PyTorch", "OpenCV", "Scikit-learn", "LLMs", "NLP", "Deep Learning", "Chatbots", "AI Agents"]
+            title: "PROGRAMMING & AI",
+            description: "Building intelligence and logic",
+            details: "Experienced in programming with Python and JavaScript. Exploring the realms of Artificial Intelligence, Natural Language Processing, and Data Science.",
+            tools: ["Python", "JavaScript", "AI", "NLP", "Git", "GitHub", "VS Code", "Problem Solving"]
         },
         design: {
-            title: "FULL-STACK",
-            description: "Modern web development & scalable applications",
-            details: "Building responsive and performant web applications using React, Next.js, Node.js, and databases. Creating seamless user experiences with modern UI/UX principles.",
-            tools: ["React", "Next.js", "Node.js", "TypeScript", "MongoDB", "PostgreSQL", "TailwindCSS", "REST APIs", "Docker", "Git"]
+            title: "WEB & DATABASE",
+            description: "Crafting robust web solutions",
+            details: "Hands-on experience building dynamic web applications and managing databases. Focused on responsive design and CRUD operations.",
+            tools: ["HTML", "CSS", "Bootstrap", "Django", "Node.js", "MySQL", "SQLite", "Power BI", "Excel", "Azure"]
         }
     }
 };
-
-

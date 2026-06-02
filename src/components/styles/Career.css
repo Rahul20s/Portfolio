@@ -50,6 +50,7 @@
   font-weight: 300;
   margin: 0;
   line-height: 20px;
+  white-space: pre-line;
 }
 
 .career-info-in {

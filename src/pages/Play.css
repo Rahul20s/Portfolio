@@ -100,9 +100,9 @@ body:has(.play-page) {
 /* Chess Container */
 .chess-container {
   display: flex;
-  gap: 15px;
+  gap: 20px;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   width: 100%;
   max-width: 1400px;
   position: relative;
@@ -258,8 +258,8 @@ body:has(.play-page) {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 1fr);
-  width: 520px;
-  height: 520px;
+  width: 380px;
+  height: 380px;
   border-radius: 4px;
   overflow: hidden;
 }
@@ -609,7 +609,7 @@ body:has(.play-page) {
   flex: 1;
   min-width: 280px;
   max-width: 380px;
-  height: 580px;
+  height: 480px;
   display: flex;
   flex-direction: column;
   background: rgba(11, 8, 12, 0.9);

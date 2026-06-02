@@ -1,0 +1,117 @@
+.project-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999999;
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.project-modal-content {
+  background: rgba(11, 8, 12, 0.95);
+  border: 1px solid rgba(194, 164, 255, 0.2);
+  border-radius: 16px;
+  width: 90%;
+  max-width: 600px;
+  padding: 40px;
+  position: relative;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5), 0 0 20px rgba(194, 164, 255, 0.1);
+  animation: slideUpModal 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes slideUpModal {
+  from {
+    opacity: 0;
+    transform: translateY(30px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.project-modal-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.2s, transform 0.2s;
+}
+
+.project-modal-close:hover {
+  color: #fff;
+  transform: rotate(90deg);
+}
+
+.project-modal-header {
+  margin-bottom: 30px;
+  border-bottom: 1px solid rgba(194, 164, 255, 0.15);
+  padding-bottom: 20px;
+  padding-right: 30px;
+}
+
+.project-modal-header h2 {
+  font-size: 32px;
+  color: #fff;
+  margin: 0 0 10px 0;
+  font-weight: 600;
+}
+
+.project-modal-category {
+  display: inline-block;
+  padding: 6px 12px;
+  background: rgba(194, 164, 255, 0.1);
+  color: var(--accentColor);
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.project-modal-section {
+  margin-bottom: 25px;
+}
+
+.project-modal-section h3 {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.project-modal-section p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.project-modal-tech {
+  color: #fff !important;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 768px) {
+  .project-modal-content {
+    padding: 30px 20px;
+  }
+  
+  .project-modal-header h2 {
+    font-size: 24px;
+  }
+}

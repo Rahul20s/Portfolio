@@ -66,15 +66,8 @@ const Navbar = () => {
   return (
     <>
       <div className="header">
-        <a href="/#" className="navbar-title" data-cursor="disable">
-          RH
-        </a>
-        <a
-          href="mailto:redoyanul1234@gmail.com"
-          className="navbar-connect"
-          data-cursor="disable"
-        >
-          redoyanul1234@gmail.com
+        <a href="/#" className="navbar-title" data-cursor="disable" style={{ display: 'flex', alignItems: 'center' }}>
+          <img src="/images/Profile.jpeg" alt="Rahul Sharma" style={{ width: '55px', height: '55px', borderRadius: '50%', objectFit: 'cover' }} />
         </a>
         <ul>
           <li>
@@ -90,6 +83,11 @@ const Navbar = () => {
           <li>
             <a data-href="#contact" href="#contact">
               <HoverLinks text="CONTACT" />
+            </a>
+          </li>
+          <li>
+            <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
+              <HoverLinks text="RESUME" />
             </a>
           </li>
         </ul>

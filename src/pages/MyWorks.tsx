@@ -1,8 +1,18 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { config } from "../config";
 import "./MyWorks.css";
+import ProjectModal from "../components/ProjectModal";
 
 const MyWorks = () => {
+  const [selectedProject, setSelectedProject] = useState<any>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = (project: any) => {
+    setSelectedProject(project);
+    setIsModalOpen(true);
+  };
+
   return (
     <div className="myworks-page">
       <div className="myworks-header">
@@ -17,7 +27,7 @@ const MyWorks = () => {
 
       <div className="myworks-grid">
         {config.projects.map((project, index) => (
-          <div className="myworks-card" key={project.id} data-cursor="disable">
+          <div className="myworks-card" key={project.id} data-cursor="disable" onClick={() => openModal(project)} style={{ cursor: 'pointer' }}>
             <div className="myworks-card-number">0{index + 1}</div>
             <div className="myworks-card-image">
               <img src={project.image} alt={project.title} />
@@ -31,6 +41,12 @@ const MyWorks = () => {
           </div>
         ))}
       </div>
+      
+      <ProjectModal 
+        isOpen={isModalOpen} 
+        onClose={() => setIsModalOpen(false)} 
+        project={selectedProject} 
+      />
     </div>
   );
 };
