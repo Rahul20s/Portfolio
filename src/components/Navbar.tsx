@@ -40,11 +40,11 @@ const Navbar = () => {
     links.forEach((elem) => {
       let element = elem as HTMLAnchorElement;
       element.addEventListener("click", (e) => {
-        if (window.innerWidth > 1024) {
+        let currentElem = e.currentTarget as HTMLAnchorElement;
+        let section = currentElem.getAttribute("data-href");
+        if (window.innerWidth > 1024 && section) {
           e.preventDefault();
-          let elem = e.currentTarget as HTMLAnchorElement;
-          let section = elem.getAttribute("data-href");
-          if (section && lenis) {
+          if (lenis) {
             const target = document.querySelector(section) as HTMLElement;
             if (target) {
               lenis.scrollTo(target, {
@@ -95,7 +95,7 @@ const Navbar = () => {
             </a>
           </li>
           <li onClick={closeMenu}>
-            <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="/Resume.pdf" download="Rahul_Sharma_Resume.pdf" target="_blank" rel="noopener noreferrer">
               <HoverLinks text="RESUME" />
             </a>
           </li>
