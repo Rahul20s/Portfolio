@@ -369,7 +369,7 @@ const Play = () => {
           <div className="player-bar opponent-bar">
             <div className="player-info">
               <div className="player-avatar">
-                <img src="/images/Profile.jpeg" alt="Rahul" />
+                <img src="/images/Profile.webp" alt="Rahul" />
               </div>
               <div className="player-details">
                 <span className="player-name">Rahul</span>

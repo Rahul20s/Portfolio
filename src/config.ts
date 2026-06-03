@@ -56,7 +56,7 @@ export const config = {
             title: "CFM AI Application",
             category: "AI / Enterprise",
             technologies: "React, Node.js, Azure OpenAI, Azure AI Search, Tailwind CSS",
-            image: "/images/ai_agent.png",
+            image: "/images/ai_agent.webp",
             description: "A secure, enterprise-grade AI assistant. Features a general GPT-4o chat and a Document Search mode powered by Azure AI Search that answers queries based strictly on uploaded company policies and SOPs."
         },
         {
@@ -64,7 +64,7 @@ export const config = {
             title: "Employee Appraisal System",
             category: "HR Tech / Full Stack",
             technologies: "Node.js, Express, HTML5, Bootstrap 5",
-            image: "/images/form.png",
+            image: "/images/form.webp",
             description: "A comprehensive web-based employee appraisal system. Features role-based access control (Employee, Supervisor, HR), dynamic search for supervisors, multi-stage approval workflows, and form locking."
         },
         {
@@ -72,7 +72,7 @@ export const config = {
             title: "Story Haven",
             category: "Full Stack",
             technologies: "Node.js, Express, SQLite, HTML/CSS/JS",
-            image: "/images/books.png",
+            image: "/images/books.webp",
             description: "A full-stack story-sharing platform with user authentication, role-based access control, and content locking functionality. Users can write, publish, and read stories with automated reading-time calculation."
         },
         {
@@ -80,7 +80,7 @@ export const config = {
             title: "CFML Corporate Website",
             category: "Web Development",
             technologies: "HTML, CSS, JavaScript, Vite",
-            image: "/images/cfml.png",
+            image: "/images/cfml.webp",
             description: "A professional corporate website built for CFML. Features a modern, responsive UI showcasing company services, about us, and team information, optimized with Vite for fast performance."
         },
         {
@@ -88,7 +88,7 @@ export const config = {
             title: "Immersive 3D Experience",
             category: "Web Development",
             technologies: "Next.js, React, Tailwind CSS",
-            image: "/images/gpt.png",
+            image: "/images/gpt.webp",
             description: "A modern web application built using the Next.js framework, featuring an immersive UI and optimized performance with server-side rendering."
         },
         {
@@ -96,7 +96,7 @@ export const config = {
             title: "IntraDesk Portal",
             category: "Enterprise Portal",
             technologies: "React, Node.js, PostgreSQL, Prisma, Azure AD",
-            image: "/images/portal.png",
+            image: "/images/portal.webp",
             description: "A secure internal knowledge portal for company employees with Azure AD authentication. Features document management, advanced search with department filters, and a comprehensive admin panel."
         },
         {
@@ -104,7 +104,7 @@ export const config = {
             title: "CFMARC Business Connect",
             category: "Web Portal / Full Stack",
             technologies: "Node.js, Express, HTML/JS, Nodemailer",
-            image: "/images/ws_web.png",
+            image: "/images/ws_web.webp",
             description: "A multifaceted business connection web portal. Integrates OTP-based secure login, LMS service integration for borrower details, a payment gateway, and an automated chatbot system."
         },
         {
@@ -112,7 +112,7 @@ export const config = {
             title: "CFMARC OCR System",
             category: "AI / Data Extraction",
             technologies: "HTML/CSS, Node.js, Express, Nvidia AI (Nemotron)",
-            image: "/images/ocr.png",
+            image: "/images/ocr.webp",
             description: "An advanced Optical Character Recognition tool leveraging Nvidia's Nemotron AI. It extracts text coordinates, renders documents, and maps variables intelligently to streamline data entry processes."
         },
         {
@@ -120,7 +120,7 @@ export const config = {
             title: "HTML & CSS Portfolio",
             category: "Web Design",
             technologies: "HTML, CSS, Bootstrap",
-            image: "/images/html_portfolio.png",
+            image: "/images/html_portfolio.webp",
             description: "A responsive personal portfolio website with structured, mobile-friendly layouts built completely from scratch using the Bootstrap grid system."
         },
         {
@@ -128,7 +128,7 @@ export const config = {
             title: "Data Visualization Dashboard",
             category: "Data Analysis",
             technologies: "Power BI, Excel, SQL",
-            image: "/images/powerbi.png",
+            image: "/images/powerbi.webp",
             description: "An interactive dashboard visualizing key business metrics. Transforms raw data into meaningful insights with dynamic charts, KPIs, and slicers."
         },
         {
@@ -136,7 +136,7 @@ export const config = {
             title: "Django Food Mart",
             category: "Full Stack Web",
             technologies: "Django, Python, HTML, CSS",
-            image: "/images/django_food.png",
+            image: "/images/django_food.webp",
             description: "A dynamic Food Mart web application with user authentication, category-wise browsing, and a responsive UI. Features basic CRUD operations for product management."
         },
         {

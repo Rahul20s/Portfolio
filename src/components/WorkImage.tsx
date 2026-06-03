@@ -6,6 +6,7 @@ interface Props {
   alt?: string;
   video?: string;
   link?: string;
+  loading?: "lazy" | "eager";
 }
 
 const WorkImage = (props: Props) => {
@@ -36,7 +37,7 @@ const WorkImage = (props: Props) => {
             <MdArrowOutward />
           </div>
         )}
-        <img src={props.image} alt={props.alt} />
+        <img src={props.image} alt={props.alt} loading={props.loading || "lazy"} />
         {isVideo && <video src={video} autoPlay muted playsInline loop></video>}
       </a>
     </div>
