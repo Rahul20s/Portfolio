@@ -71,36 +71,38 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="header">
+      <header className="header">
         <a href="/#" className="navbar-title" data-cursor="disable" style={{ display: 'flex', alignItems: 'center' }}>
           <img src="/images/Profile.jpeg" alt="Rahul Sharma" style={{ width: '55px', height: '55px', borderRadius: '50%', objectFit: 'cover' }} />
         </a>
         <button className="menu-toggle" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
           {isMobileMenuOpen ? <FaTimes /> : <FaBars />}
         </button>
-        <ul className={isMobileMenuOpen ? "mobile-open" : ""}>
-          <li onClick={closeMenu}>
-            <a data-href="#about" href="#about">
-              <HoverLinks text="ABOUT" />
-            </a>
-          </li>
-          <li onClick={closeMenu}>
-            <a data-href="#work" href="#work">
-              <HoverLinks text="WORK" />
-            </a>
-          </li>
-          <li onClick={closeMenu}>
-            <a data-href="#contact" href="#contact">
-              <HoverLinks text="CONTACT" />
-            </a>
-          </li>
-          <li onClick={closeMenu}>
-            <a href="/Resume.pdf" download="Rahul_Sharma_Resume.pdf" target="_blank" rel="noopener noreferrer">
-              <HoverLinks text="RESUME" />
-            </a>
-          </li>
-        </ul>
-      </div>
+        <nav>
+          <ul className={isMobileMenuOpen ? "mobile-open" : ""}>
+            <li onClick={closeMenu}>
+              <a data-href="#about" href="#about">
+                <HoverLinks text="ABOUT" />
+              </a>
+            </li>
+            <li onClick={closeMenu}>
+              <a data-href="#work" href="#work">
+                <HoverLinks text="WORK" />
+              </a>
+            </li>
+            <li onClick={closeMenu}>
+              <a data-href="#contact" href="#contact">
+                <HoverLinks text="CONTACT" />
+              </a>
+            </li>
+            <li onClick={closeMenu}>
+              <a href="/Resume.pdf" download="Rahul_Sharma_Resume.pdf" target="_blank" rel="noopener noreferrer">
+                <HoverLinks text="RESUME" />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
       <div className="landing-circle1"></div>
       <div className="landing-circle2"></div>
