@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://rahulsharma.dev/sitemap.xml
+Sitemap: https://rahulsharma-ai.vercel.app/sitemap.xml
