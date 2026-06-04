@@ -27,9 +27,6 @@ export const config = {
             period: "2023 - 2026",
             location: "India",
             description: "Graduated with a Bachelor's degree (8.6 CGPA), with a core focus on Artificial Intelligence, Data Science, and modern web development.",
-            githubUrl: "",
-            liveUrl: "",
-            video: "",
             responsibilities: [
                 "Studied Artificial Intelligence, Machine Learning, and NLP",
                 "Mastered Database Management (MySQL, SQLite) and Data Visualization (Power BI)",
@@ -43,9 +40,6 @@ export const config = {
             period: "2025",
             location: "Online",
             description: "• Microsoft Excel Associate (MO-200)\n• NASSCOM Future Skills (1) - Web Developer\n• NASSCOM Future Skills (2) - Business Intelligence\n• NVIDIA Deep Learning Institute (2)\n• NVIDIA Deep Learning Institute (3)",
-            githubUrl: "",
-            liveUrl: "",
-            video: "",
             responsibilities: [],
             technologies: ["Deep Learning", "Web Development", "Business Intelligence", "Excel"]
         },
@@ -55,9 +49,6 @@ export const config = {
             period: "Present",
             location: "Remote/Hybrid",
             description: "Worked as an AI Developer Intern, contributing to the development of OCR systems and internal knowledge portals using modern web and AI technologies.",
-            githubUrl: "",
-            liveUrl: "",
-            video: "",
             responsibilities: [
                 "Assisted in integrating NLP and LLM models for data extraction.",
                 "Developed scalable full-stack features using Node.js and React."
@@ -75,9 +66,31 @@ export const config = {
             description: "A secure, enterprise-grade AI assistant. Features a general GPT-4o chat and a Document Search mode powered by Azure AI Search that answers queries based strictly on uploaded company policies and SOPs.",
             githubUrl: "",
             liveUrl: "",
-            video: ""
+            video: "/video/ai-chat-app.mp4"
         },
         {
+            id: 6,
+            title: "IntraDesk Portal",
+            category: "Enterprise Portal",
+            technologies: "React, Node.js, PostgreSQL, Prisma, Azure AD",
+            image: "/images/portal.webp",
+            description: "A secure internal knowledge portal for company employees with Azure AD authentication. Features document management, advanced search with department filters, and a comprehensive admin panel.",
+            githubUrl: "",
+            liveUrl: "",
+            video: "/video/intradesk.mp4"
+        },
+                {
+            id: 8,
+            title: "CFMARC OCR System",
+            category: "AI / Data Extraction",
+            technologies: "HTML/CSS, Node.js, Express, Nvidia AI (Nemotron)",
+            image: "/images/ocr.webp",
+            description: "An advanced Optical Character Recognition tool leveraging Nvidia's Nemotron AI. It extracts text coordinates, renders documents, and maps variables intelligently to streamline data entry processes.",
+            githubUrl: "",
+            liveUrl: "",
+            video: "/video/cfmarc-ocr.mp4"
+        },
+                {
             id: 2,
             title: "Employee Appraisal System",
             category: "HR Tech / Full Stack",
@@ -122,34 +135,12 @@ export const config = {
             video: ""
         },
         {
-            id: 6,
-            title: "IntraDesk Portal",
-            category: "Enterprise Portal",
-            technologies: "React, Node.js, PostgreSQL, Prisma, Azure AD",
-            image: "/images/portal.webp",
-            description: "A secure internal knowledge portal for company employees with Azure AD authentication. Features document management, advanced search with department filters, and a comprehensive admin panel.",
-            githubUrl: "",
-            liveUrl: "",
-            video: ""
-        },
-        {
             id: 7,
             title: "CFMARC Business Connect",
             category: "Web Portal / Full Stack",
             technologies: "Node.js, Express, HTML/JS, Nodemailer",
             image: "/images/ws_web.webp",
             description: "A multifaceted business connection web portal. Integrates OTP-based secure login, LMS service integration for borrower details, a payment gateway, and an automated chatbot system.",
-            githubUrl: "",
-            liveUrl: "",
-            video: ""
-        },
-        {
-            id: 8,
-            title: "CFMARC OCR System",
-            category: "AI / Data Extraction",
-            technologies: "HTML/CSS, Node.js, Express, Nvidia AI (Nemotron)",
-            image: "/images/ocr.webp",
-            description: "An advanced Optical Character Recognition tool leveraging Nvidia's Nemotron AI. It extracts text coordinates, renders documents, and maps variables intelligently to streamline data entry processes.",
             githubUrl: "",
             liveUrl: "",
             video: ""
