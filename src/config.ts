@@ -4,7 +4,7 @@ export const config = {
         fullName: "Rahul Sharma",
         title: "AI & Full Stack Developer",
         description: "Eager learner, constantly staying one step ahead of challenges, and driven to solve real-world problems through innovative AI and Full-Stack solutions.",
-            githubUrl: "",
+            githubUrl: "https://github.com/Rahul20s/AI-&-Full-Stack-Developer",
             liveUrl: "",
             video: ""
     },
@@ -16,7 +16,7 @@ export const config = {
     about: {
         title: "About Me",
         description: "I am a driven AI & Full-Stack Developer holding a Bachelor of Vocational Studies (B.VOC) in Artificial Intelligence and Data Science. I have a strong foundation in modern web development, specializing in HTML, CSS, JavaScript, and backend frameworks like Django and Node.js. With hands-on experience building responsive, dynamic applications and integrating AI and NLP solutions, I am passionate about writing clean, efficient code and leveraging cutting-edge technologies to solve complex real-world problems.",
-            githubUrl: "",
+            githubUrl: "https://github.com/Rahul20s/About-Me",
             liveUrl: "",
             video: ""
     },
@@ -64,7 +64,7 @@ export const config = {
             technologies: "React, Node.js, Azure OpenAI, Azure AI Search, Tailwind CSS",
             image: "/images/ai_agent.webp",
             description: "A secure, enterprise-grade AI assistant. Features a general GPT-4o chat and a Document Search mode powered by Azure AI Search that answers queries based strictly on uploaded company policies and SOPs.",
-            githubUrl: "",
+            githubUrl: "https://github.com/Rahul20s/CFM-AI-Application",
             liveUrl: "",
             video: "/video/ai-chat-app.mp4"
         },
@@ -75,7 +75,7 @@ export const config = {
             technologies: "React, Node.js, PostgreSQL, Prisma, Azure AD",
             image: "/images/portal.webp",
             description: "A secure internal knowledge portal for company employees with Azure AD authentication. Features document management, advanced search with department filters, and a comprehensive admin panel.",
-            githubUrl: "",
+            githubUrl: "https://github.com/Rahul20s/IntraDesk-Portal",
             liveUrl: "",
             video: "/video/intradesk.mp4"
         },
@@ -86,7 +86,7 @@ export const config = {
             technologies: "HTML/CSS, Node.js, Express, Nvidia AI (Nemotron)",
             image: "/images/ocr.webp",
             description: "An advanced Optical Character Recognition tool leveraging Nvidia's Nemotron AI. It extracts text coordinates, renders documents, and maps variables intelligently to streamline data entry processes.",
-            githubUrl: "",
+            githubUrl: "https://github.com/Rahul20s/CFMARC-OCR-System",
             liveUrl: "",
             video: "/video/cfmarc-ocr.mp4"
         },
@@ -97,7 +97,7 @@ export const config = {
             technologies: "Node.js, Express, HTML/JS, Nodemailer",
             image: "/images/ws_web.webp",
             description: "A multifaceted business connection web portal. Integrates OTP-based secure login, LMS service integration for borrower details, a payment gateway, and an automated chatbot system.",
-            githubUrl: "",
+            githubUrl: "https://github.com/Rahul20s/CFMARC-Business-Connect",
             liveUrl: "https://rahul20s.github.io/CFMARC/",
             video: ""
         },
@@ -108,7 +108,7 @@ export const config = {
             technologies: "Node.js, Express, HTML5, Bootstrap 5",
             image: "/images/form.webp",
             description: "A comprehensive web-based employee appraisal system. Features role-based access control (Employee, Supervisor, HR), dynamic search for supervisors, multi-stage approval workflows, and form locking.",
-            githubUrl: "",
+            githubUrl: "https://github.com/Rahul20s/Employee-Appraisal-System",
             liveUrl: "",
             video: ""
         },
@@ -119,7 +119,7 @@ export const config = {
             technologies: "Node.js, Express, SQLite, HTML/CSS/JS",
             image: "/images/books.webp",
             description: "A full-stack story-sharing platform with user authentication, role-based access control, and content locking functionality. Users can write, publish, and read stories with automated reading-time calculation.",
-            githubUrl: "",
+            githubUrl: "https://github.com/Rahul20s/Story-Haven",
             liveUrl: "",
             video: ""
         },
@@ -130,7 +130,7 @@ export const config = {
             technologies: "HTML, CSS, JavaScript, Vite",
             image: "/images/cfml.webp",
             description: "A professional corporate website built for CFML. Features a modern, responsive UI showcasing company services, about us, and team information, optimized with Vite for fast performance.",
-            githubUrl: "",
+            githubUrl: "https://github.com/Rahul20s/CFML-Corporate-Website",
             liveUrl: "",
             video: ""
         },
@@ -141,7 +141,7 @@ export const config = {
             technologies: "Next.js, React, Tailwind CSS",
             image: "/images/gpt.webp",
             description: "A modern web application built using the Next.js framework, featuring an immersive UI and optimized performance with server-side rendering.",
-            githubUrl: "",
+            githubUrl: "https://github.com/Rahul20s/Immersive-3D-Experience",
             liveUrl: "",
             video: ""
         },
@@ -152,7 +152,7 @@ export const config = {
             technologies: "HTML, CSS, Bootstrap",
             image: "/images/html_portfolio.webp",
             description: "A responsive personal portfolio website with structured, mobile-friendly layouts built completely from scratch using the Bootstrap grid system.",
-            githubUrl: "",
+            githubUrl: "https://github.com/Rahul20s/HTML-&-CSS-Portfolio",
             liveUrl: "",
             video: ""
         },
@@ -163,7 +163,7 @@ export const config = {
             technologies: "Power BI, Excel, SQL",
             image: "/images/powerbi.webp",
             description: "An interactive dashboard visualizing key business metrics. Transforms raw data into meaningful insights with dynamic charts, KPIs, and slicers.",
-            githubUrl: "",
+            githubUrl: "https://github.com/Rahul20s/Data-Visualization-Dashboard",
             liveUrl: "",
             video: ""
         },
@@ -174,7 +174,7 @@ export const config = {
             technologies: "Django, Python, HTML, CSS",
             image: "/images/django_food.webp",
             description: "A dynamic Food Mart web application with user authentication, category-wise browsing, and a responsive UI. Features basic CRUD operations for product management.",
-            githubUrl: "",
+            githubUrl: "https://github.com/Rahul20s/Django-Food-Mart",
             liveUrl: "",
             video: ""
         },
@@ -185,7 +185,7 @@ export const config = {
             technologies: "Django, Python, MVC Architecture",
             image: "/images/django_clothing.png",
             description: "A comprehensive online clothing store featuring a shopping cart system, order management, dummy payment workflow, and Django session handling.",
-            githubUrl: "",
+            githubUrl: "https://github.com/Rahul20s/Django-Online-Clothing",
             liveUrl: "",
             video: ""
         },
@@ -196,7 +196,7 @@ export const config = {
             technologies: "Python, Natural Language Processing",
             image: "/images/python_chatbot.png",
             description: "A conversational AI chatbot utilizing NLP and condition-based matching to process user input and generate intelligent, context-aware responses.",
-            githubUrl: "",
+            githubUrl: "https://github.com/Rahul20s/AI-Chatbot",
             liveUrl: "",
             video: ""
         }
@@ -214,7 +214,7 @@ export const config = {
         develop: {
             title: "PROGRAMMING & AI",
             description: "Building intelligence and logic",
-            githubUrl: "",
+            githubUrl: "https://github.com/Rahul20s/PROGRAMMING-&-AI",
             liveUrl: "",
             video: "",
             details: "Experienced in programming with Python and JavaScript. Exploring the realms of Artificial Intelligence, Natural Language Processing, and Data Science.",
@@ -223,7 +223,7 @@ export const config = {
         design: {
             title: "WEB & DATABASE",
             description: "Crafting robust web solutions",
-            githubUrl: "",
+            githubUrl: "https://github.com/Rahul20s/WEB-&-DATABASE",
             liveUrl: "",
             video: "",
             details: "Hands-on experience building dynamic web applications and managing databases. Focused on responsive design and CRUD operations.",
