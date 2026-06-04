@@ -1,0 +1,179 @@
+.contact-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(8px);
+  z-index: 99999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.contact-modal-content {
+  background: #111;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+  overflow-y: auto;
+  max-height: 90vh;
+  padding: 40px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  animation: slideUpContact 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes slideUpContact {
+  from {
+    opacity: 0;
+    transform: translateY(30px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.contact-modal-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.2s, transform 0.2s;
+}
+
+.contact-modal-close:hover {
+  color: #fff;
+  transform: rotate(90deg);
+}
+
+.contact-modal-header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.contact-modal-header h2 {
+  font-size: 32px;
+  color: #fff;
+  margin: 0 0 10px 0;
+}
+
+.contact-modal-header p {
+  color: #aaa;
+  font-size: 16px;
+  margin: 0;
+}
+
+.contact-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  transition: transform 0.2s;
+}
+
+.contact-card:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.contact-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.phone-icon {
+  background: rgba(37, 211, 102, 0.1);
+  color: #25d366;
+}
+
+.email-icon {
+  background: rgba(66, 133, 244, 0.1);
+  color: #4285f4;
+}
+
+.contact-info h3 {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  margin: 0 0 5px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.contact-info p {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0 0 15px 0;
+}
+
+.contact-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.call-btn {
+  background: #25d366;
+  color: #000;
+}
+.call-btn:hover { background: #1eb956; }
+
+.email-btn {
+  background: #4285f4;
+  color: #fff;
+}
+.email-btn:hover { background: #3367d6; }
+
+.copy-btn {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+.copy-btn:hover { background: rgba(255, 255, 255, 0.2); }
+
+@media screen and (max-width: 600px) {
+  .contact-modal-content {
+    padding: 30px 20px;
+  }
+  .contact-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  .contact-actions {
+    width: 100%;
+    justify-content: center;
+  }
+}

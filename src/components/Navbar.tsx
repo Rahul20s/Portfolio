@@ -4,6 +4,7 @@ import HoverLinks from "./HoverLinks";
 import { gsap } from "gsap";
 import Lenis from "lenis";
 import { FaBars, FaTimes } from "react-icons/fa";
+import ContactModal from "./ContactModal";
 import "./styles/Navbar.css";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -11,6 +12,7 @@ export let lenis: Lenis | null = null;
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isContactModalOpen, setIsContactModalOpen] = useState(false);
 
   useEffect(() => {
     // Initialize Lenis smooth scroll
@@ -100,9 +102,16 @@ const Navbar = () => {
                 <HoverLinks text="RESUME" />
               </a>
             </li>
+            <li>
+              <button className="book-call-btn" onClick={() => { closeMenu(); setIsContactModalOpen(true); }}>
+                Book a Call
+              </button>
+            </li>
           </ul>
         </nav>
       </header>
+
+      <ContactModal isOpen={isContactModalOpen} onClose={() => setIsContactModalOpen(false)} />
 
       <div className="landing-circle1"></div>
       <div className="landing-circle2"></div>

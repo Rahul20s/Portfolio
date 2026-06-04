@@ -115,3 +115,38 @@
     font-size: 24px;
   }
 }
+
+.project-modal-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.project-modal-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+.live-btn {
+  background: var(--accentColor);
+  color: #000;
+  border: none;
+}
+
+.live-btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+.github-btn {
+  background: transparent;
+  color: #fff;
+}
