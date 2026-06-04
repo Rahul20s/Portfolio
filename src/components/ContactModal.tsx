@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import ReactDOM from "react-dom";
 import { FaTimes, FaPhoneAlt, FaEnvelope, FaCopy } from "react-icons/fa";
+import { lenis } from "./Navbar";
 import "./styles/ContactModal.css";
 
 interface ContactModalProps {
@@ -12,11 +13,14 @@ const ContactModal = ({ isOpen, onClose }: ContactModalProps) => {
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = "hidden";
+      lenis?.stop();
     } else {
       document.body.style.overflow = "auto";
+      lenis?.start();
     }
     return () => {
       document.body.style.overflow = "auto";
+      lenis?.start();
     };
   }, [isOpen]);
 

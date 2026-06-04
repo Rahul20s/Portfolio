@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import ReactDOM from "react-dom";
 import { FaTimes, FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import { lenis } from "./Navbar";
 import "./styles/ProjectModal.css";
 
 interface Project {
@@ -25,11 +26,14 @@ const ProjectModal = ({ isOpen, onClose, project }: ProjectModalProps) => {
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = "hidden";
+      lenis?.stop();
     } else {
       document.body.style.overflow = "auto";
+      lenis?.start();
     }
     return () => {
       document.body.style.overflow = "auto";
+      lenis?.start();
     };
   }, [isOpen]);
 
