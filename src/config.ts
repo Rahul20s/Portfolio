@@ -90,7 +90,18 @@ export const config = {
             liveUrl: "",
             video: "/video/cfmarc-ocr.mp4"
         },
-                {
+        {
+            id: 7,
+            title: "CFMARC Business Connect",
+            category: "Web Portal / Full Stack",
+            technologies: "Node.js, Express, HTML/JS, Nodemailer",
+            image: "/images/ws_web.webp",
+            description: "A multifaceted business connection web portal. Integrates OTP-based secure login, LMS service integration for borrower details, a payment gateway, and an automated chatbot system.",
+            githubUrl: "",
+            liveUrl: "https://rahul20s.github.io/CFMARC/",
+            video: ""
+        },
+                        {
             id: 2,
             title: "Employee Appraisal System",
             category: "HR Tech / Full Stack",
@@ -130,17 +141,6 @@ export const config = {
             technologies: "Next.js, React, Tailwind CSS",
             image: "/images/gpt.webp",
             description: "A modern web application built using the Next.js framework, featuring an immersive UI and optimized performance with server-side rendering.",
-            githubUrl: "",
-            liveUrl: "",
-            video: ""
-        },
-        {
-            id: 7,
-            title: "CFMARC Business Connect",
-            category: "Web Portal / Full Stack",
-            technologies: "Node.js, Express, HTML/JS, Nodemailer",
-            image: "/images/ws_web.webp",
-            description: "A multifaceted business connection web portal. Integrates OTP-based secure login, LMS service integration for borrower details, a payment gateway, and an automated chatbot system.",
             githubUrl: "",
             liveUrl: "",
             video: ""
