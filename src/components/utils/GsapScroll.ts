@@ -83,7 +83,12 @@ export function setCharTimeline(
         .to(".about-section", { opacity: 0, delay: 3, duration: 2 }, 0)
         .to(
           ".character-model",
-          { pointerEvents: "none", xPercent: -85, delay: 2, duration: 5 },
+          { pointerEvents: "none", xPercent: -85, delay: 1, duration: 3 },
+          0
+        )
+        .to(
+          ".character-model",
+          { xPercent: -50, delay: 5, duration: 3 },
           0
         )
         .to(character.rotation, { y: 0.92, x: 0.12, delay: 3, duration: 3 }, 0)
