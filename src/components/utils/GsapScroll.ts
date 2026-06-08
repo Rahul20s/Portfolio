@@ -63,10 +63,12 @@ export function setCharTimeline(
   let neckBone = character?.getObjectByName("spine005");
   if (window.innerWidth > 1024) {
     if (character) {
+      gsap.set(".character-model", { x: 0, xPercent: -50 });
+
       tl1
         .fromTo(character.rotation, { y: 0 }, { y: 0.7, duration: 1 }, 0)
         .to(camera.position, { z: 22 }, 0)
-        .fromTo(".character-model", { x: 0, xPercent: -50 }, { x: 0, xPercent: -75, duration: 1 }, 0)
+        .to(".character-model", { xPercent: -75, duration: 1 }, 0)
         .to(".landing-container", { opacity: 0, duration: 0.4 }, 0)
         .to(".landing-container", { y: "40%", duration: 0.8 }, 0)
         .fromTo(".about-me", { y: "-50%" }, { y: "0%" }, 0);
@@ -79,10 +81,9 @@ export function setCharTimeline(
         )
         .to(".about-section", { y: "30%", duration: 6 }, 0)
         .to(".about-section", { opacity: 0, delay: 3, duration: 2 }, 0)
-        .fromTo(
+        .to(
           ".character-model",
-          { pointerEvents: "inherit" },
-          { pointerEvents: "none", x: 0, xPercent: -85, delay: 2, duration: 5 },
+          { pointerEvents: "none", xPercent: -85, delay: 2, duration: 5 },
           0
         )
         .to(character.rotation, { y: 0.92, x: 0.12, delay: 3, duration: 3 }, 0)
@@ -93,6 +94,12 @@ export function setCharTimeline(
           ".what-box-in",
           { display: "none" },
           { display: "flex", duration: 0.1, delay: 6 },
+          0
+        )
+        .fromTo(
+          ".what-box-in",
+          { opacity: 0, y: "20%" },
+          { opacity: 1, y: "0%", duration: 3, delay: 6 },
           0
         )
         .fromTo(
@@ -109,10 +116,9 @@ export function setCharTimeline(
         );
 
       tl3
-        .fromTo(
+        .to(
           ".character-model",
-          { y: "0%", x: 0, xPercent: -85 },
-          { y: "-100%", x: 0, xPercent: -50, duration: 4, ease: "none", delay: 1 },
+          { y: "-100%", xPercent: -50, duration: 4, ease: "none", delay: 1 },
           0
         )
         .fromTo(".whatIDO", { y: 0 }, { y: "15%", duration: 2 }, 0)
