@@ -5,6 +5,7 @@ import { gsap } from "gsap";
 import Lenis from "lenis";
 import { FaBars, FaTimes } from "react-icons/fa";
 import ContactModal from "./ContactModal";
+import { track } from "@vercel/analytics";
 import "./styles/Navbar.css";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -98,12 +99,16 @@ const Navbar = () => {
               </a>
             </li>
             <li onClick={closeMenu}>
-              <a href="/Resume.pdf" download="Rahul_Sharma_Resume.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="/Resume.pdf" download="Rahul_Sharma_Resume.pdf" target="_blank" rel="noopener noreferrer" onClick={() => track("Resume Downloaded")}>
                 <HoverLinks text="RESUME" />
               </a>
             </li>
             <li>
-              <button className="book-call-btn" onClick={() => { closeMenu(); setIsContactModalOpen(true); }}>
+              <button className="book-call-btn" onClick={() => { 
+                closeMenu(); 
+                setIsContactModalOpen(true); 
+                track("Book Call Clicked");
+              }}>
                 Book a Call
               </button>
             </li>
