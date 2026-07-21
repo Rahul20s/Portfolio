@@ -199,6 +199,17 @@ export const config = {
             githubUrl: "https://github.com/Rahul20s/AI-Chatbot",
             liveUrl: "",
             video: ""
+        },
+        {
+            id: 14,
+            title: "CKYC SFTP Automation Portal",
+            category: "Enterprise Automation",
+            technologies: "Next.js, Node.js, Prisma, SFTP, XML-Crypto",
+            image: "/images/gpt.webp",
+            description: "An automated enterprise portal to securely integrate with the CKYC SFTP system. Features bulk file processing, PDF extraction, automated SFTP uploads/downloads, and XML digital signatures for regulatory compliance.",
+            githubUrl: "",
+            liveUrl: "",
+            video: ""
         }
     ],
     contact: {
