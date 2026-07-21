@@ -58,6 +58,17 @@ export const config = {
     ],
     projects: [
         {
+            id: 14,
+            title: "CKYC SFTP Automation Portal",
+            category: "Enterprise Automation",
+            technologies: "Next.js, Node.js, Prisma, SFTP, XML-Crypto",
+            image: "/images/gpt.webp",
+            description: "An automated enterprise portal to securely integrate with the CKYC SFTP system. Features bulk file processing, PDF extraction, automated SFTP uploads/downloads, and XML digital signatures for regulatory compliance.",
+            githubUrl: "",
+            liveUrl: "",
+            video: ""
+        },
+        {
             id: 1,
             title: "CFM AI Application",
             category: "AI / Enterprise",
@@ -197,17 +208,6 @@ export const config = {
             image: "/images/python_chatbot.png",
             description: "A conversational AI chatbot utilizing NLP and condition-based matching to process user input and generate intelligent, context-aware responses.",
             githubUrl: "https://github.com/Rahul20s/AI-Chatbot",
-            liveUrl: "",
-            video: ""
-        },
-        {
-            id: 14,
-            title: "CKYC SFTP Automation Portal",
-            category: "Enterprise Automation",
-            technologies: "Next.js, Node.js, Prisma, SFTP, XML-Crypto",
-            image: "/images/gpt.webp",
-            description: "An automated enterprise portal to securely integrate with the CKYC SFTP system. Features bulk file processing, PDF extraction, automated SFTP uploads/downloads, and XML digital signatures for regulatory compliance.",
-            githubUrl: "",
             liveUrl: "",
             video: ""
         }
